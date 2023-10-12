@@ -2,10 +2,10 @@
 // marks2 = 10
 // console.log(marks1, marks2)
 
-// var x = 5;
-// var y = 6;
-// var z = x+y;
-// console.log(z)
+var x = 5;
+var y = 6;
+var z = x+y;
+console.log(z)
 
 // x = 5;
 // y = 6;
@@ -40,7 +40,7 @@
 //  a = 20
 //  console.log(a) //reassigned
 
- let message = "Hello"
- message = "world"
- console.log(message)
+//  let message = "Hello"
+//  message = "world"
+//  console.log(message)
 
