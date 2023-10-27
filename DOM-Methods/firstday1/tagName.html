@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Findign hTML Element by taj Name.</p>
+    <p>this example demonstratess the <b>getElementByTagName</b>ethod.</p>
+    <p id="demo"></p>
+    <script>
+        const element = document.getElementsByTagName("p");
+        document.getElementById("demo").innerHTML = 'the text in first paragraph (index 0 ) is:' + element[1].innerHTML
+    </script>
+</body>
+</html>
