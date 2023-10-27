@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo"></h1>
+    <h2 id="ram">This is book</h2>
+    <button id="raju">click me</button>
+
+<script>
+document.getElementById("demo").innerHTML ="Hello World!"; 
+// document.getElementById("demo").innerHTML = data 
+const data = document.getElementById("ram").innerHTML
+document.write(data)
+document.getElementById("raju").onclick = function(){
+    //document.write("Hello world")   //changed whole page to use this
+    document.getElementById("demo").innerHTML = "I am clicked"    //only change where ther i want
+}
+</script>
+
+</body>
+</html>
